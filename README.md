@@ -50,7 +50,7 @@ Hero section dibuat semenarik mungkin karena merupakan bagian pertama yang dilih
 ## About me section
 Section ini berisi informasi lebih detail tentang diri saya.
 
-<img width="1882" height="882" alt="image" src="https://github.com/user-attachments/assets/ab8742ef-f30b-45bb-b138-73005352fe9b" />
+<img width="1874" height="866" alt="image" src="https://github.com/user-attachments/assets/2bd33a2d-e4a5-4adb-95a2-580ff71c21aa" />
 
 ### Tampilan:
 - Profile singkat
