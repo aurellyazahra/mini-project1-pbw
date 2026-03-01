@@ -12,6 +12,19 @@ Website ini dirancang dengan tampilan yang bersih, warna yang konsisten, serta t
 
 # Tampilan Setiap Section / Fitur
 
+## Navbar
+<img width="1879" height="77" alt="image" src="https://github.com/user-attachments/assets/1a30de93-51fa-40b7-877a-2243f4241fab" />
+
+Navbar berisi:
+- Nama Website
+
+Menu navigasi:
+- Home
+- About Me
+- Certificates
+
+Navbar selalu berada di bagian atas dan memiliki tampilan yang bersih serta minimalis.
+
 ## Hero Section
 Hero section adalah bagian pertama yang muncul saat website dibuka.
 
@@ -164,7 +177,4 @@ Digunakan untuk styling, layout, animasi, dan gradient.
 
 ### Bootstrap 5
 Digunakan untuk grid system, card component, dan responsive layout.
-
-### JavaScript
-Digunakan untuk animasi scroll pada section About Me.
 
