@@ -104,7 +104,6 @@ Footer merupakan bagian paling bawah dari website.
 
 Footer dibuat sederhana agar tidak mengganggu fokus utama website.
 
-
 # Penjelasan Code Setiap Section
 
 ## NAVBAR
@@ -125,6 +124,26 @@ Menu navigasi:
 - navbar-nav → container menu
 - ms-auto → membuat menu berada di sisi kanan
 
+### code
+```
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Zahra Aurellya Herdiansyah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+```
+
 ## Hero section
 Struktur menggunakan:
 `<section>`
@@ -136,6 +155,33 @@ Styling menggunakan CSS untuk:
 - Mengatur margin dan spacing
 
 Bootstrap digunakan untuk membantu positioning dan alignment.
+
+### code
+```
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- KIRI (Foto) -->
+          <div class="col-lg-6 d-flex justify-content-center align-items-center">
+              <img src="profile.jpeg" alt="Profile" class="profile-img">
+          </div>
+
+          <!-- KANAN (Teks) -->
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="h2 fw-bold hero-title">  
+              Halo, saya Zahra Aurellya Herdiansyah
+            </h1>
+            <p class="lead hero-subtitle">
+              Saya adalah mahasiswa Sistem Informasi yang memiliki ketertarikan pada pengembangan perangkat lunak dan analisis data. Saya terbiasa mengerjakan proyek berbasis web dan mobile, serta memiliki kemampuan dalam manajemen database dan perancangan sistem. Portofolio ini dibuat sebagai dokumentasi perjalanan akademik dan profesional saya.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+```
 
 ## About Me Section
 Menggunakan Bootstrap Grid:
@@ -150,6 +196,14 @@ Animasi dibuat dengan:
 - JavaScript untuk mendeteksi scroll
 
 Class .visible ditambahkan saat elemen masuk ke viewport sehingga animasi berjalan dengan smooth.
+
+### code
+```
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+```
 
 ## Certificates Section
 
@@ -167,6 +221,47 @@ box-shadow: ...`
 
 Ini membuat tampilan lebih modern dan interaktif.
 
+### code
+```
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Certificates</h2>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="isc.jpeg" class="card-img-top" alt="Certificate 1">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-semibold">ISC - PUBLIKASI & DOKUMENTASI</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="tarot.jpeg" class="card-img-top" alt="Certificate 2">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-semibold">TAROT - ANGGOTA PDD</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="insevent.jpeg" class="card-img-top" alt="Certificate 3">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-semibold">INSEVENT - PANITIA</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+```
+
 ## Footer
 Menggunakan:
 `<footer>`
@@ -175,6 +270,14 @@ CSS digunakan untuk:
 - Mengatur padding
 - Mengatur font-size
 - Mengatur warna background dan teks
+
+### code
+```
+    <!-- Footer -->
+    <footer>
+      &copy; 2026 Zahra Aurellya. All rights reserved.
+    </footer>
+```
 
 # Desain dan Styling
 Website ini menggunakan kombinasi warna yang soft dan konsisten agar terlihat estetik.
