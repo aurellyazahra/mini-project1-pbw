@@ -98,6 +98,16 @@
     transform: translateY(0);
 }
 
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #e79ab1 !important;
+    font-size: 12px;
+}
+
 #certificates {
     background: linear-gradient(to bottom, #ddf2dd, #f8bbd0) !important;
     color:#517a51;
