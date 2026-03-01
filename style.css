@@ -88,14 +88,14 @@
     color: #517a51;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: justify;
-    opacity: 0;               /* awalnya tidak terlihat */
-    transform: translateY(30px); /* posisi awal turun 30px */
+    opacity: 0;
+    transform: translateY(30px); 
     transition: all 0.8s ease-out;
 }
 
 .about-box.visible {
-    opacity: 1;               /* muncul */
-    transform: translateY(0); /* kembali ke posisi normal */
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #certificates {
@@ -106,26 +106,26 @@
 }
 
 #certificates .card {
-    border-radius: 15px;        /* sudut membulat */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* animasi */
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #certificates .card:hover {
-    transform: translateY(-5px); /* naik sedikit saat hover */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* shadow lebih dramatis */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 #certificates .card-img-top {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    object-fit: cover;  /* supaya gambar tidak terdistorsi */
-    height: 200px;      /* ukuran gambar konsisten */
+    object-fit: cover;
+    height: 200px;
 }
 
 footer {
-    padding: 5px 0;       /* tinggi kotak lebih kecil */
-    font-size: 12px;      /* teks lebih kecil */
+    padding: 5px 0;
+    font-size: 12px;
     text-align: center;
-    background-color: #e79ab1; /* tetap gelap */
+    background-color: #e79ab1;
     color: #ffffff;
 }
